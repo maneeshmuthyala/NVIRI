@@ -1,0 +1,123 @@
+.footer{
+    background-color: rgba(0, 0, 0, 1);
+    width: 100vw;
+    height: 40vh;
+}
+.footer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #323030;
+    height: 75%;
+    width: 39%;
+    margin: 20px;
+    border-radius: 10px;
+}
+.foot-desc{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.footer-btn{
+    border-radius: 10px;
+    background-color: rgba(234, 60, 18, 1);
+    border-width: 0px;
+    color: #fff;
+    height: 40px;
+    width: 80px;
+}
+.last-cont{
+    margin-left: 30px;
+}
+.line{
+    width: 90vw;
+    color: #fff;
+    border-width: 0.1px;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+.logo{
+    width: 165px;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    margin-left: -200px;
+}
+.inp-btn{
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    
+}
+.inp-cont{
+    display: flex;
+    flex-direction: row;
+}
+.btn-cont{
+    background-color: rgba(234, 60, 18, 1);
+}
+.arrow{
+    cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+    .footer {
+        padding: 20px;
+        height: auto;
+    }
+    .footer2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-cont {
+        flex-direction: column;
+        width: 70%;
+    }
+    .foot-desc {
+        font-size: 12px;
+        text-align: center;
+    }
+    .footer-btn {
+        margin: 10px 0;
+        width: 100px;
+    }
+    .last-cont {
+        text-align: center;
+    }
+    .line {
+        width: 70%;
+    }
+    .foot {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .logo {
+        width: 100px;
+    }
+    .cont {
+        margin-left: 0;
+        justify-content: center;
+    }
+    .inp-cont{
+        display: flex;
+        flex-direction: row;
+    }
+    .btn-cont{
+        background-color: rgba(234, 60, 18, 1);
+    }
+    .arrow{
+        cursor: pointer;
+    }
+}

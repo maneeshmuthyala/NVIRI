@@ -1,0 +1,17 @@
+.inp-cont{
+    height: 40px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    height: 30px;
+}
+.drop-container{
+    display: flex;
+    flex-direction: row;
+    line-height: 5px;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-size: 10px;
+}
